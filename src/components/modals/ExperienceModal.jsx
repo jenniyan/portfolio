@@ -2,36 +2,35 @@ import { useState } from "react";
 import { usePortfolioUI } from "../hooks/UsePortfolioUI";
 import book from "../../assets/book.png";
 import clchcCover from "../../assets/clchc-cover.png";
-import avisionCover from "../../assets/avision-cover.png";
+import ittiaCover from "../../assets/ittia-cover.png";
+import archwestCover from "../../assets/archwest-cover.jpg"
 import pageFlipSound from "../../assets/sounds/page-flip.ogg";
 
 const experiences = [
   {
-    title: "Full Stack Developer",
-    company: "Avision",
-    date: "April 2026 - Present",
+    title: "Software Engineering Intern",
+    company: "Archwest Capital",
+    date: "September 2026 - Present",
     description:
-      "Rebuilding a legacy static HTML/HTTP website from scratch as a full-stack TypeScript application using React 19, React Router, Tailwind CSS, Express, and PostgreSQL (Neon), with HTTPS and client-side routing replacing hand-coded .html pages",
-    tech: "Front-end: React, Tailwind CSS | Backend: Node.js, Express, PostgreSQL (Neon)",
-    repo: "https://github.com/avisionlabs/website",
-    cover: avisionCover,
+      "Building and validating internal tools to improve financial reporting accuracy and speed up cross-team workflows.",
+    tech: "Retool, SQL, Microsoft Azure",
+    cover: archwestCover
   },
   {
-    title: "Tech Lead Intern",
-    company: "Commit the Change",
-    date: "January 2026 - March 2026",
+    title: "Software Engineering Intern",
+    company: "Ittia",
+    date: "May 2026 - August 2026",
     description:
-      "Implemented a data caching solution for Celebrating Life Community Health center, reducing unnecessary backend data fetching using TanStack Query (react-query).",
-    tech: "Front-end: React, Tanstack Query (react-query) | Backend: Axios",
-    repo: "https://github.com/ctc-uci/clchc",
-    cover: clchcCover,
+      "Improved Cypress E2E test reliability from 2/13 to 12/13 passing, added row/column-level SQL error markers to close a UX gap, and led a Figma redesign of the dashboard home page (29 screens across 6 weeks of leadership reviews) that was approved for production.",
+    tech: "Front-end: React, Tailwind CSS | Backend: Node.js, Express, PostgreSQL (Neon)",
+    cover: ittiaCover,
   },
   {
     title: "Full Stack Developer",
     company: "Commit the Change",
     date: "October 2025 - June 2026",
     description:
-      "Building a centralized appointment management platform for non-profit Celebrating Life Community Health Center (CLCHC), which includes daily appointment quota creation, live quota-progress tracking, version logs, and tiered permission portals. CLCHC provides affordable healthcare to 22,000+ patients in Orange County.",
+      "Building a centralized appointment management platform for non-profit Celebrating Life Community Health Center (CLCHC), which includes daily appointment quota creation, live quota-progress tracking, version logs, and tiered permission portals. CLCHC provides affordable healthcare to 22,000+ patients in Orange County. Implemented a data caching solution, reducing unnecessary backend data fetching using TanStack Query (react-query).",
     tech: "Front-end: React, Chakra UI, HTML/CSS | Backend: Node.js, Express, PostgreSQL | User Authentication: Firebase",
     repo: "https://github.com/ctc-uci/clchc",
     cover: clchcCover,

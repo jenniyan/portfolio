@@ -7,9 +7,19 @@ import saucynatorCover from "../../assets/saucynator-cover.png";
 import portfolioCover from "../../assets/portfolio-cover.png";
 import mlCover from "../../assets/ml-cover.png";
 import kinnectCover from "../../assets/kinnect-cover.png";
+import avisionCover from "../../assets/avision-cover.png";
 import pageFlipSound from "../../assets/sounds/page-flip.ogg";
 
 const projects = [
+  {
+    title: "Avision",
+    time: "april 2026 - june 2026",
+    description:
+      "Rebuilt a legacy static HTML/HTTP website from scratch as a full-stack TypeScript application using React 19, React Router, Tailwind CSS, Express, and PostgreSQL (Neon), with HTTPS and client-side routing replacing hand-coded .html pages",
+    tech: "Front-end: React, Tailwind CSS | Backend: Node.js, Express, PostgreSQL (Neon)",
+    repo: "https://github.com/avisionlabs/website",
+    cover: avisionCover,
+  },
   {
     title: "Kinnect",
     time: "jan 2026 - june 2026",
